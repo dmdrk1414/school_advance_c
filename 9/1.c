@@ -26,7 +26,7 @@
 
 int main(void)
 {
-    char *inputString;
+    char inputString[MAX_LENGTH + 1]; // +1 for null terminator
 
     // Read input until "$END$" is encountered
     while (scanf("%s", inputString) == 1 && strcmp(inputString, "$END$") != 0)
