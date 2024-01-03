@@ -56,7 +56,7 @@ void print_arr(struct product arr[], int arr_len)
     // printf("\n");
 }
 int main(void)
-{
+{ //
     int i, s_type;
     struct product pro[5];
 
